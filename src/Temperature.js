@@ -6,11 +6,11 @@ export default function Temperature() {
       <div className="col-6 temperature">
         <span id="temperature">18</span>
         <span className="units">
-          <a href="1" id="celsius-unit" className="active">
+          <a href="#" id="celsius-unit" className="active">
             °C
           </a>{" "}
           |
-          <a href="2" id="fahrenheit-unit">
+          <a href="#" id="fahrenheit-unit">
             °F
           </a>{" "}
         </span>
