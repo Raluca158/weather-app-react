@@ -12,7 +12,7 @@ export default function App() {
         <Weather />
 
         <p class="git-code">
-          <a href="https://github.com/Raluca158/weather-app-react">
+          <a href="https://github.com/Raluca158/weather-app-react" target="_blank" rel="noreferrer">
             Open-source code
           </a>{" "}
           by Raluca Popescu
