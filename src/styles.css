@@ -1,0 +1,10 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .box {
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    border: 2px solid black;
+    margin: 10px 80px;
+  }
+  

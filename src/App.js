@@ -1,16 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Search from "./Search";
 import Weather from "./Weather";
+import Head from "./Head";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello from React</h1>
-        <Weather /> 
-      </header>
+    <div>
+      <div className="box">
+        <Search />
+        <Head />
+        <Weather />
+
+        <p class="git-code">
+          <a href="https://github.com/Raluca158/weather-app-react">
+            Open-source code
+          </a>{" "}
+          by Raluca Popescu
+        </p>
+      </div>
     </div>
   );
 }
-
-export default App;
