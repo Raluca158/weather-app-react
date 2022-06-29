@@ -4,16 +4,8 @@ export default function Temperature() {
   return (
     <div className="row">
       <div className="col-6 temperature">
-        <span id="temperature">18</span>
-        <span className="units">
-          <a href="#" id="celsius-unit" className="active">
-            °C
-          </a>{" "}
-          |
-          <a href="#" id="fahrenheit-unit">
-            °F
-          </a>{" "}
-        </span>
+        <span id="temperature">18°C</span>
+        
         <br />
         Sunny 🌞
         <br />
