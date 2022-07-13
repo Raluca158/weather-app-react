@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Search() {
   return (
+   
     <div className="container">
       <nav className="navbar navbar-light bg-brown">
         <div className="container-fluid">

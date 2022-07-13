@@ -1,11 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
+import axios from "axios";
 
-export default function Temperature() {
-  return (
+//export default function Temperature() {
+  
     <div className="row">
       <div className="col-6 temperature">
-        <span id="temperature">18°C</span>
-        
+        <span id="temperature">18</span>
+        <span className="units">
+          <a href="#" id="celsius-unit" className="active">
+            °C
+          </a>{" "}
+          |
+          <a href="#" id="fahrenheit-unit">
+            °F
+          </a>{" "}
+        </span>
         <br />
         Sunny 🌞
         <br />
@@ -21,5 +30,5 @@ export default function Temperature() {
         Wind: 35 km/h
       </div>
     </div>
-  );
-}
+  
+//}
